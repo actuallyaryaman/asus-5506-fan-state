@@ -1,8 +1,8 @@
 # ASUS (UM|M)5606 fan state script
 
-Bash script to set the fan state on the ZenBook S 16 UM5606 and Vivobook M5606
+Bash script to set the fan state on the ZenBook S 16 UM5506 and Vivobook M5506
 
-Note: for the Vivobook S 16 S5506, edit `fan_state` and replace all instances of `0x110019` with `0x5002f`
+Note: for the Vivobook S 16 S5606, edit `fan_state` and replace all instances of `0x5002f` with `0x110019`
 
 ## Usage
 
@@ -17,5 +17,4 @@ Note: for the Vivobook S 16 S5506, edit `fan_state` and replace all instances of
 
 ## Installation
 
-- Arch Linux: [`asus-5606-fan-state-git` AUR package](https://aur.archlinux.org/packages/asus-5606-fan-state-git) (`yay -S asus-5606-fan-state-git`)
 - Other Linux: copy `fan_state` to a directory in `$PATH`, `chmod +x` if needed.
